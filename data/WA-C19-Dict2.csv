@@ -1,0 +1,13 @@
+Variable Name,Definition
+County,County of residence
+WeekStartDate,"The first date of the week associated with symptom onset, or the closest available date. This date is assigned based on a hierarchy of dates. If a date is not available the next step in the hierarchy is used: 1) Symptom onset date, 2) Diagnosis date, 3) Positive defining lab date, 4) Local health notification date, 5) Record creation date. Weeks are defined as Sunday through Saturday."
+NewPos_All,Total number of cases assigned to that day
+Deaths,Total number of deaths assigned to that day
+Age 0-19,Total number of cases or deaths between 0 and 19 years old
+Age 20-39,Total number of cases or deaths between 20 and 39 years old
+Age 40-59,Total number of cases or deaths between 40 and 59 years old
+Age 60-79,Total number of cases or deaths between 60 and 79 years old
+Age 80+,Total number of cases or deaths 80 years old or older
+Positive UnkAge,Total number of cases or deaths with an unknown age
+dtm_updated,The date and time the data were pulled from the Washington Disease Reporting System
+"*Please note that data are dynamic, so there will be changes over time as we learn more about cases",
